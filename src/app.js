@@ -47,5 +47,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(portEnv, () => {
-    console.log(`Server is up on port ${portENV}`)
+    console.log(`Server is up on port ${portEnv}`)
 })
